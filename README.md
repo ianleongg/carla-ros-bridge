@@ -21,8 +21,9 @@ This documentation is for CARLA version 0.9.8
     #OPTIONAL STEP: Download additional maps (AdditionalMaps_0.9.8.tar.gz)
     # from https://github.com/carla-simulator/carla/releases
     #  Place AdditionalMaps_0.9.8.tar.gz in ~/CARLA_0.9.8/Import
+    cd ~/CARLA_0.9.8/Import
     tar xvf AdditionalMaps_0.9.8.tar.gz
-    cd ..
+   
     ./ImportAssets.sh
 
 ## ROS-bridge Setup
